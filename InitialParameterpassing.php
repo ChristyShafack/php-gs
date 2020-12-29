@@ -18,7 +18,7 @@ class Person
 
     public $firstName;
     public $lastName;
-    public $yearBorn; 
+    public $yearBorn;
 
     function __construct($tempFirst = "", $tempLast = "", $tempYear = "")
     {
@@ -29,7 +29,7 @@ class Person
 
     public function getFirstName()
     {
-         return $this->firstName;
+        return $this->firstName;
     }
 
     public function setFirstName($tempName)
@@ -40,3 +40,4 @@ class Person
 
 $newPerson = new Person("Samuel Langhorne", "Clemens", 1899);
 echo $newPerson->getFirstName();
+ 
