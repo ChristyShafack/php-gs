@@ -11,16 +11,10 @@ $dbUserName = "PHPFundamentals";
 $dbServer = "localhost";
 $dbName = "PHPFundamentals";
 
-// instance of MYSQLi class
 $connection = new mysqli($dbServer, $dbUserName, $dbPassword, $dbName);
 
 if($connection->connect_errno)
 {
-
-    // exits the connection incase of any error
-    exit("Failed to connect to the Database. Reason: " . $connection->connect_error);
-
-    // closes the database incase of any error
     die("Failed to connect to the Database. Reason: ".$connection->connect_error);
 }
 

@@ -25,8 +25,8 @@ if($connection->connect_errno)
 }
 
 //$query = "UPDATE Authors SET pen_name = 'L. M. Montgomery' WHERE id = 2";
-$query = "DELETE FROM Authors WHERE id = 4";
-// $query = "INSERT INTO Authors (first_name, last_name, pen_name) VALUES ('Arthur Ignatius Conan', 'Doyle', 'Sir Arthur Ignatius Conan Doyle')";
+//$query = "DELETE FROM Authors WHERE id = 4";
+$query = "INSERT INTO Authors (first_name, last_name, pen_name) VALUES ('Arthur Ignatius Conan', 'Doyle', 'Sir Arthur Ignatius Conan Doyle')";
 
 $connection->query($query);
 
