@@ -13,7 +13,6 @@ New:
 
 */
 
-
 $dbPassword = "PHPFundamentals";
 $dbUserName = "PHPFundamentals";
 $dbServer = "localhost";
