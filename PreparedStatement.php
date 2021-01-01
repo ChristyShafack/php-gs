@@ -4,8 +4,6 @@
 // -- Prepared Statements
 // --------------------------------
 
-<?php
-
 $dbPassword = "PHPFundamentals";
 $dbUserName = "PHPFundamentals";
 $dbServer = "localhost";
